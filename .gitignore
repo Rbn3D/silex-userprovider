@@ -4,3 +4,4 @@ composer.lock
 *.swo
 *~
 /site/
+/.idea/

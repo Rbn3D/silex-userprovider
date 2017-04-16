@@ -317,9 +317,9 @@ class UserProviderServiceProvider implements ServiceProviderInterface, BootableP
         };
 
         // Enable orm mappings
-        if($this->useOrm($app)) {
-            $this->addDoctrineOrmMappings($app);
-        }
+//        if($this->useOrm($app)) {
+//            $this->addDoctrineOrmMappings($app);
+//        }
     }
 
     protected function initializeUserController(Container $app)
